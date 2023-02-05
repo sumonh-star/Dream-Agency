@@ -20,6 +20,22 @@ body{
     overflow-x: hidden !important;
 }
 
+/* ====scrollbar==== */
+::-webkit-scrollbar{
+    width:1.2rem;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--other-color-alt);
+    border-radius: var(--radius-1-5);
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--other-color);
+}
+::selection{
+    background-color: var(--other-color-alt);
+    color:var(--text-color);
+}
+
 /* ======reused-element====== */
 section{
     padding-block: 5rem;
